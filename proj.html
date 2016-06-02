@@ -245,7 +245,7 @@
 					<div class="panel-heading" role="tab" id="nssupH">
 					  <h4 class="panel-title">
 						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#nssup" aria-expanded="false" aria-controls="nssup">
-						  Scripting and Integration Specialist @ NetSuite
+						  Scripting and Integration Specialist II @ NetSuite
 						</a>
 					  </h4>
 					</div>
@@ -570,7 +570,7 @@
 									<li><b>Backend App Stack: Python 2.7, Flask, SQLAlchemy, PostgreSQL</b></li>
 									<li><b>Frontend App Stack: Python 2.7, Django, FlatUI</b></li>
 									<li><b>Outbound Integration App Stack: Python 2.7, SUDS, NetSuite SuiteTalk, NetSuite Token-based Authentication for Web Services</b></li>
-									<li><b>Inbound Integration App Stack: Python 2.7, Flask (REST), Flask HTTP Auth</b></li><br>
+									<li><b>Inbound Integration App Stack: Python 2.7, Flask HTTP Auth, Flask-RESTful</b></li><br>
 									<li>Application for Synchronizing sales orders from an external application to NetSuite. The application is divided into two parts. Web app which allows seamless input of sales orders, cash sales and invoices powered through Django and a REST interface serves as a development interface for both web app and potential integrating mobile app powered through flask's REST interface.</li>
 									<li>The application also has its own storage of the orders to ensure that it could also provide information to other integrating apps to reduce communication and processing time of order syncs.</li>
 									</ul>
@@ -584,11 +584,23 @@
 									<li><b>Backend App Stack: Python 2.7, Flask, SQLAlchemy, PostgreSQL</b></li>
 									<li><b>Frontend App Stack: Python 2.7, Django, FlatUI</b></li>
 									<li><b>Outbound Integration App Stack: Python 2.7, SUDS, NetSuite SuiteTalk, NetSuite Token-based Authentication for Web Services</b></li>
-									<li><b>Inbound Integration App Stack: Python 2.7, Flask (REST), Flask HTTP Auth</b></li>
+									<li><b>Inbound Integration App Stack: Python 2.7, Flask HTTP Auth, Flask-RESTful</b></li>
 									<li><b>NetSuite Stack: SuiteTalk, NetSuite Time Tracking</b></li><br>
 									<li>Application for Synchronizing time entries from an external application to NetSuite. The application is divided into two parts. Web app which allows seamless input of entries powered through Django and a REST interface serves as a development interface for both web app and potential integrating mobile app powered through flask's REST interface.</li>
 									<li>The application also has its own storage of the orders to ensure that it could also provide information to other integrating apps to reduce communication and processing time of time entry synchronization.</li>
 									<li>As of the moment, in further development to enable Message Queueing process using RabbitMQ and Celery to perform an asynchronous and scheduled synchronization of time entries.</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td><b>PyN Expense</b></td>
+								<td>
+									<b>Architect & Developer (April - May 2016)</b><br><br>
+									<ul>
+									<li><b>App Stack: Python 2.7, Flask, SQLAlchemy, PostgreSQL, Flask HTTP Auth, Flask-RESTful</b></li>
+									<li><b>Integration App Stack: Python 2.7, SUDS, NetSuite SuiteTalk, NetSuite Token-based Authentication for Web Services</b></li>
+									<li>Gateway application for synchronization of time expense reports from external systems to NetSuite using a RESTful endpoint to receive the data and transmit to NetSuite using SuiteTalk and Token-based Authentication for SuiteTalk.</li>
+									<li>As of the moment, in further development to enable Message Queueing process using RabbitMQ and Celery to perform an asynchronous and scheduled synchronization of expense reports./li>
 									</ul>
 								</td>
 							</tr>
@@ -638,7 +650,7 @@
 							<tr>
 								<td><b>SS2MM Service (Beta)</b></td>
 								<td>
-									<b>Architect & Solo Developer(February 2016 - Present)</b><br><br>
+									<b>Architect & Solo Developer(2016)</b><br><br>
 									<ul>
 									<li><b>Stack: SuiteScript 2.0 (RESTlet), SuiteBuilder</b></li><br>
 									<li>SS2MM Service is an NetSuite SuiteScript-based implementation of NodeJS's npm repository, Python's PyPi and Ruby's gem. This would allow developers to fetch a module without installing a bundle. SS2MM Service is the main connection point used by the Installer bundle to pull up the module and associated files and the Publisher bundle to push the associated files and create a gloablly available SuiteScript 2.0 module.</li>
@@ -648,7 +660,7 @@
 							<tr>
 								<td><b>SS2MM Installer Bundle</b></td>
 								<td>
-									<b>Architect & Solo Developer(February 2016 - Present)</b><br><br>
+									<b>Architect & Solo Developer(2016)</b><br><br>
 									<ul>
 									<li><b>Stack: SuiteScript 2.0 (Suitelet, Map/Reduce Scripts), Suitebuilder, SuiteBundler</b></li><br>
 									<li>Distributable Interface for SS2MM which allows users to perform similar process to Python's pip install and Ruby's gem install from the SS2MM Service.</li>
@@ -658,7 +670,7 @@
 							<tr>
 								<td><b>SS2MM Publisher Bundle</b></td>
 								<td>
-									<b>Architect & Solo Developer(February 2016 - Present)</b><br><br>
+									<b>Architect & Solo Developer(2016)</b><br><br>
 									<ul>
 									<li><b>Stack: SuiteScript 2.0 (Suitelet, Map/Reduce, User Event), Suitebuilder, SuiteBundler</b></li><br>
 									<li>Distributable Interface for SS2MM which allows developers to publish SuiteScript 2.0 modules similar to how it is published in Python's PyPi and Ruby gem repository. It would require certain criteria before a developer could publish a module and requires the developer to provide certain information</li>
